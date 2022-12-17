@@ -1,0 +1,166 @@
+
+.header{
+    text-align: center;
+    padding: 10px;
+    background-color: darksalmon;
+}
+
+.header h1{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkred;
+}
+
+.topnav{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: coral;
+}
+
+topnav.sticky{
+    position: fixed;
+    top: 0;
+}
+
+.topnav a{
+    color: darkred;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration:none;
+}
+
+.topnav a:hover{
+    background-color:crimson;
+    color: black;
+}
+.topnav a:active{
+    background-color:indianred;
+    color: rgb(143, 0, 0);
+    
+}
+.body{
+    background-color: tomato;
+    border:dashed rgb(236, 93, 41);
+    padding: 20px;
+}
+
+.body h2{
+    color: darkred;
+}
+
+.body h3{
+    color: darkblue;
+}*/
+
+.hafta1{
+    display: block;
+    padding: 3px;   
+}
+
+.hafta2{
+    display: block;
+    padding: 3px;    
+}
+
+.hafta3{
+    display: block;
+    padding: 3px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    display:flex;
+}
+
+.table {
+    background-color: brown;
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 10px;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+.table th{
+    border: 1px solid black;
+    border-color: rgb(240, 159, 37);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-container{
+    position: relative;
+    bottom: 0;
+}
+
+.aboutMe{
+    position:relative;
+    bottom: 0;
+    background-color: indianred;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
