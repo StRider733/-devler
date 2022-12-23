@@ -375,15 +375,12 @@
 <hr>       
 
 <div id="iletişim" class="form-container">
-    <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br>
-        <label for="surname">Surname:</label><br>
-        <input type="text" id="surname" name="surname"><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
-        <input type="submit" value="Gönder">
-      </form>
+    <div >
+        <input class="block" type="text" placeholder="Name-Surname" required > <br/>
+        <input class="block" type="email"  placeholder="E-mail" required ><br/> 
+        <textarea class="block" placeholder="Please enter your text here." rows="5" cols="40"></textarea><br/>
+        <button type="submit">Submit</button>
+    </div>
 
       <div class="aboutMe">
         <h2>About Me</h2>

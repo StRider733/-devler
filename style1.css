@@ -152,13 +152,19 @@ topnav.sticky{
 
 
 
-.form-container{
-    position: relative;
-    bottom: 0;
+.block{
+    align-items: center;
+    padding: 20px;
+    margin-top: 7px;
+    
 }
+  
+   
 
 .aboutMe{
     position:relative;
+    display:inline-table;
+    margin-top: 8px;
     bottom: 0;
     background-color: indianred;
     padding: 20px;
