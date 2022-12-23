@@ -12,6 +12,7 @@
 }
 
 .topnav{
+    padding: 10px;
     position: sticky;
     top: 0;
     overflow: hidden;
@@ -24,17 +25,22 @@ topnav.sticky{
 }
 
 .topnav a{
+    
     color: darkred;
     float: left;
     display: block;
     text-align: center;
     padding: 10px 10px;
     text-decoration:none;
+    
 }
 
 .topnav a:hover{
+    border: 2px solid crimson;
+    padding: 10px;
     background-color:crimson;
     color: black;
+    border-radius: 50px 20px;
 }
 .topnav a:active{
     background-color:indianred;
@@ -46,6 +52,20 @@ topnav.sticky{
     border:dashed rgb(236, 93, 41);
     padding: 20px;
 }
+
+#haf1{
+    background-image: url(../ödevler/image/bitcoin.png);
+    background-repeat: no-repeat; 
+    background-position:center; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    z-index: -1;
+}
+
+
+
+
+
 
 .body h2{
     color: darkred;
