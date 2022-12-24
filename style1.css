@@ -1,4 +1,8 @@
 
+html{
+scroll-behavior: smooth; 
+scroll-behavior: ;   
+}
 .header{
     text-align: center;
     padding: 10px;
@@ -10,6 +14,7 @@
     font-family: Arial, Helvetica, sans-serif;
     color:darkred;
 }
+
 
 .topnav{
     padding: 10px;
@@ -41,6 +46,7 @@ topnav.sticky{
     background-color:crimson;
     color: black;
     border-radius: 50px 20px;
+    transition: all;
 }
 .topnav a:active{
     background-color:indianred;
@@ -51,16 +57,19 @@ topnav.sticky{
     background-color: tomato;
     border:dashed rgb(236, 93, 41);
     padding: 20px;
+    color:azure
 }
 
 #haf1{
-    background-image: url(../ödevler/image/bitcoin.png);
+   background-image: url(../ödevler/image/bitcoin.png);
     background-repeat: no-repeat; 
     background-position:center; 
     background-size: cover; 
     background-attachment: fixed; 
-    z-index: -1;
+    z-index: -10000;
+    
 }
+ 
 
 
 
